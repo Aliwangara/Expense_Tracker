@@ -144,6 +144,7 @@ h2{
 }
 
 .transaction{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.2rem;
@@ -152,7 +153,7 @@ h2{
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
     transition: all .2s ease;
-    border-right: solid ;
+    border-right:5px solid ;
     animation: slideIn .3s ease;
 }
 
@@ -181,7 +182,7 @@ h2{
     border-right-color: #dc2626;
 }
 
-.transaction.delete-btn{
+.transaction .delete-btn{
     background: none;
     border: none;
     color: #dc2626;
@@ -195,7 +196,7 @@ h2{
 
 }
 
-.transaction:hover.delete-btn{
+.transaction:hover .delete-btn{
     opacity: 1;
 
 }
